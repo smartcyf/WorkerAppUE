@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"订单详情页面.html",
-  "generationDate":new Date(1421491593905.7),
+  "generationDate":new Date(1421557820256.23),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -601,7 +601,22 @@
                       "height":32}},
                   "adaptiveStyles":{
                     "a":{
-}}}]}]},
+}},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 项目流程",
+                              "target":{
+                                "targetType":"page",
+                                "url":"项目流程.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true}]}]},
 {
           "id":"9e4d06cae6c24e9eb156f730557d526e",
           "label":"",
@@ -829,7 +844,22 @@
                       "height":32}},
                   "adaptiveStyles":{
                     "a":{
-}}}]}]},
+}},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 项目流程",
+                              "target":{
+                                "targetType":"page",
+                                "url":"项目流程.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true}]}]},
 {
           "id":"b110495799854594938e505e2a16823d",
           "label":"",

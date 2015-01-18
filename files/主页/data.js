@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"主页.html",
-  "generationDate":new Date(1421491590893.4),
+  "generationDate":new Date(1421557817893.88),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -324,7 +324,22 @@
                       "height":55}},
                   "adaptiveStyles":{
                     "a":{
-}}},
+}},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 订单详情页面",
+                              "target":{
+                                "targetType":"page",
+                                "url":"订单详情页面.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true},
 {
                   "id":"f0a218d6a69c4208a3a9e03629f2d335",
                   "label":"",
@@ -593,7 +608,22 @@
                       "height":55}},
                   "adaptiveStyles":{
                     "a":{
-}}},
+}},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 订单详情页面",
+                              "target":{
+                                "targetType":"page",
+                                "url":"订单详情页面.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true},
 {
                   "id":"a770721fe7aa4617ad00aef27f60d15a",
                   "label":"",

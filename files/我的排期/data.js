@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"我的排期.html",
-  "generationDate":new Date(1421491591462.51),
+  "generationDate":new Date(1421557818350.88),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -1024,7 +1024,53 @@
 }}}],
           "images":{
             "normal~":"resources/images/transparent.gif",
-            "normal~a":"resources/images/transparent.gif"}}]}},
+            "normal~a":"resources/images/transparent.gif"}},
+{
+          "id":"93b72670154340e2939ab6c107e7e7b0",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":365},
+            "size":{
+              "width":70,
+              "height":55}},
+          "adaptiveStyles":{
+            "a":{
+}},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 被选中的 (形状) = 被选中的 (形状)",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["4cbc706f74944a8ba9f443893419760b"]},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetCheckState",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":false,
+                                    "isFocused":false,
+                                    "isTarget":false,
+                                    "value":["4cbc706f74944a8ba9f443893419760b"]}]}]}]}}]}]}},
+          "tabbable":true}]}},
   "masters":{
     "c9244275e3aa436b9ff9b6a761fafe54":{
       "packageId":"c9244275e3aa436b9ff9b6a761fafe54",
@@ -1486,4 +1532,6 @@
     "3ab65fce72f441b6a06870b73a6fd789":{
       "scriptId":"u61"},
     "3913227ff75c41cc80477255467cb5e8":{
-      "scriptId":"u62"}}});
+      "scriptId":"u62"},
+    "93b72670154340e2939ab6c107e7e7b0":{
+      "scriptId":"u63"}}});
